@@ -1,1 +1,16 @@
 Docker installation of ubuntu
+    1  sudo sh get-docker.sh
+    2  docker --version
+    3  https://github.com/exlearntech/python-flask.git
+    4  git clone
+    5  git clone https://github.com/exlearntech/python-flask.git
+    6  ls -lr
+    7  cd python-flask
+    8  docker images
+    9  docker build -t python_flast_01
+   10  docker build -t python_flast_01 .
+   11  docker images
+   12  docker ps
+   13  docker run -d -p 5000:5000 python_flast_01
+   14  docker ps
+   15  history
